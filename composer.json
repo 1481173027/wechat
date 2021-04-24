@@ -1,0 +1,21 @@
+{
+    "name": "qili/wechat",
+    "description": "微信SDK",
+    "type": "1",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "我叫王大宝",
+            "email": "1481173027@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Qili\\": "src/qili"  
+		}
+	}
+}
